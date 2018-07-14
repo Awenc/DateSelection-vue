@@ -114,14 +114,6 @@
                     }else{ 
                         if(j<=this.nowMonthDay){                                                     
                             obj.daymsg=j;
-                            //时间前后颜色改变
-                            // if(this.showYears < this.nowYears){
-                            //     obj.pre=true;
-                            // }else if(this.showMonth <this.nowMonth){
-                            //     obj.pre=true;
-                            // }else{
-                            //     obj.pre=false;
-                            // }
                             j++;
                         }else{
                             obj.daymsg="";
